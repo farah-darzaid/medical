@@ -1,0 +1,569 @@
+body {
+	margin: 0px;
+	height: 2000px;
+}
+header {
+	width: 100%;
+	height: 100px;
+	position: fixed;
+}
+header h1 {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	margin-left: 100px;
+	line-height: 100px;
+}
+header nav {
+	float: right;
+	margin-right: 100px;
+	line-height: 100px;
+}
+header nav a {
+	margin-right: 20px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+header nav a:hover {
+	color: darkblue;
+}
+header nav .fab,.fas {
+	color: gray;
+}
+header hr {
+	clear: both;
+	color: white;
+}
+.vertical {
+	float: right;
+    height: auto;
+    width: 60px;
+    margin-left: 92%;
+    margin-top: 10%;
+    position: fixed;
+    background-color: white;
+    border-radius: 10px;
+	
+}
+.vertical a {
+	display: block;
+	text-align: center;
+}
+.vertical i {
+	font-size: 25px;
+	line-height: 50px;
+	color: gray;
+}
+.vertical hr {
+	color: #f4f4f4;
+}
+.main {
+	width: 100%;
+	height: 650px;
+	background-image: url(../images/medical.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+.main .headers {
+	float: left;
+	color: black;
+	margin: 200px 50px 0px;
+	font-size: 25px;
+}
+.main h6 {
+	color: gray;
+    margin: 0px 0px 45px;
+
+}
+.main .icons {
+	clear: both;
+	float: left;
+	margin-left: 25px;
+}
+.main .icons img {
+	margin-right: 1px;
+}
+.description {
+   clear: both;
+    width: 80%;
+    height: 500px;
+    padding-top: 7%;
+    padding: 7% 10%;
+}
+.description div {
+	display: inline-block;
+	width: 33%;
+	 	float: left;
+	border-radius: 20px;
+}
+.description h6,h2,p {
+	margin: 10%;
+
+}
+.description .blue {
+	background: #b9f7f9;
+	height: 90%;
+}
+.description .blue p {
+	width: 80%;
+    margin: 10%;
+}
+.description .lightblue {
+	background: #d4fdfe;
+	margin-top :-30px;
+	height: 500px;
+	
+}
+.description button {
+	background: white;
+	border-radius:30px;
+	border: none;
+	padding: 15px 30px;
+	margin-left: 20px;
+	margin-left: 10%;
+}
+.description .far {
+	font-size: 50px;
+	color: #4545a5;
+}
+.description button:hover {
+	border:2px solid #4545a5;
+	background: #d4fdfe;
+}
+.med2 {
+	margin-top: 100px;
+	width: 100%;
+	height: 580px;
+}
+ .med2content {
+	float: right;
+    margin-right: 4%;
+    width: 400px;
+    line-height: 25px;
+
+    }
+.med2 img {
+	margin-left: 10%;
+}
+.med2content h2 {
+	margin-bottom:5px;
+	margin-left: 0px;
+}
+.med2content p {
+	margin-left: 0px;
+}
+.med2content button {
+    margin-bottom: 5px;
+    width: 100%;
+    height: 65px;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    text-align: left;
+}
+.med2content i {
+	margin: 20px;
+	font-size: 20px;
+}
+.help {
+	width: 100%;
+	height: 900px;
+	background-image: url(http://jevelin.shufflehound.com/medical/wp-content/uploads/sites/23/2018/09/Rectangle-827-copy-2.jpg?id=72);
+}
+.help .header{
+	padding: 2% 37%;
+	text-align: center;
+
+}
+.categories {
+	padding: 20px;
+    width: 94%;
+    margin: auto;
+    text-align: center;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+}
+.categories .cat {
+	display: inline-block;
+    width: 24%;
+    height: 32%;
+    margin: 50px;
+    text-align: left;
+}
+.categories .cat h3,img {
+	padding: 0px;
+	margin: 0px;
+}
+.categories .cat p {
+	margin: 0px;
+	color: gray;
+}
+.jenna {
+	margin-top: 85px;
+    width: 100%;
+    height: 86%;
+
+}
+.jenna img {
+	float: right;
+	height: 100%;
+    width: 48%;
+}
+
+.jenna .doctor {
+    float: left;
+    width: 37%;
+    display: inline-block;
+    margin-left: 15%;
+}
+.jenna .doctor h1 {
+	margin-top: 0px;
+
+}
+.jenna .doctor p{
+	margin-left:0px;
+	line-height: 25px;
+}
+.jenna .doctor .bold{
+	font-weight:bold;
+
+}
+.doctor button {
+    background-color: #3ce2ad;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    padding: 20px;
+    width: 40%;
+    font-weight: bold;
+    margin-top: 35px;
+}
+.doctor button:hover {
+	background: white;
+	border:2px solid #3ce2ad;
+	color: black;
+	cursor: pointer; 
+}
+.ratio {
+	width: 100%;
+	height: 300px;
+	background-color: #f4f4f4;
+	margin:0px;
+	padding:0px;
+}
+.ratio div {
+    width: 24%;
+        margin-top: 85px;
+    text-align: center;
+    display: inline-block;
+}
+.ratio h1 {
+	margin: 0px;
+	padding: 0px;
+}
+.ratio hr {
+	width: 10%;
+	border: 1px solid #3ce2ad;
+}
+.offers {
+	width: 100%;
+	height:920px;
+}
+.offers h1,h5 {
+	text-align: center;
+	padding-top: 15px;
+	margin: 0px;
+}
+.offers h1 {
+	padding-top: 10%;
+}
+.offers h5 {
+	padding-bottom: 5%;
+}
+.offers .treatments {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+
+}
+.offers .treatments div {
+    display: inline-block;
+    width: 33%;
+    float: left;
+    height: 700px;
+   
+
+}
+.offers .treatments div h6,.get {
+	margin-left: 40%;
+	font-size: 15px;
+
+}
+.offers .treatments i {
+	margin-left: 15%;
+}
+.offers .treatments .get {
+	
+	border: none;
+	border-radius: 30px;
+	padding: 20px;
+	background-color: white;
+	font-weight: bold;
+}
+.offers .treatments .get:hover {
+	border: 1px solid #0078aa;
+	background-color: #d4fdfe;
+}
+.offers .treatments .white button {
+	background-color:  #0078aa;
+	color: white;
+}
+.offers .treatments .blue {
+	background-color: #d4fdfe;
+	height: 630px;
+}
+.offers .treatments .white {
+    height: 650px;
+    background-color: #f4f4f4;
+    padding-top: 30px;
+    margin-top: -20px
+}
+.offers .treatments .white button:hover {
+	border: 1px solid #0078aa;
+	background-color: white;
+	color: black;
+}
+.question {
+	margin-top: 35px;
+	width: 100%;
+	height: 600px;
+	
+}
+.question .ask {
+	float: left;
+    margin-top: 8%;
+    margin-left: 20%;
+    width: 40%;
+}
+.question .q {
+	float: right;
+    width: 25%;
+    margin-right: 22%;
+    margin-right: 15%;
+    margin-top: 10%;
+    text-align: center;
+}
+.question .ask button {
+	margin-top: 25px;
+	border: none;
+	border-radius: 30px;
+	background-color: #3ce2ad;
+	padding: 20px;
+	color: white;
+	width: 20%;
+}
+.question .ask button:hover {
+	background: white;
+    border: 2px solid #3ce2ad;
+    color: black;
+    cursor: pointer;
+}
+.question .q button {
+ 	margin-bottom: 5px;
+    width: 100%;
+    height: 65px;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    text-align: left;
+    padding: 12px 10px;
+    background-color: #f4f4f4;
+}
+.question .q button:hover {
+	cursor: pointer;
+}
+.question .q button i {
+	padding-left: 95%;
+    color: #3ce2ad;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+}
+.map iframe{
+	width: 100%;
+	margin-bottom: 0px;
+	height: 550px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	border: none;
+	filter: grayscale(100%);
+   
+}
+.contact {
+	width: 100%;
+	height: 200px;
+	background-color: #f4f4f4;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.contact div {
+	width: 22%;
+    margin: 5% 0%;
+    margin: 4% 1%;
+    text-align: center;
+    display: inline-block;
+}
+.contact i {
+	display: inline-block;
+    color: #3ce2ad;
+    font-size: 30px;
+    margin-right: 20px;
+}
+.contact h4 {
+	display: inline-block;
+	margin-bottom: 0px;
+}
+.contact p {
+    padding: 0px;
+    margin-top: 10px;
+    margin-left: 40%;
+    color: gray;
+    font-size: 14px;
+}
+.form {
+	width: 100%;
+	height: 850px;
+}
+.form .pics {
+	width: 40%;
+    height: 900px;
+    float: left;
+    margin-left: 10%;
+   
+}
+.form .application {
+	width: 40%;
+	height: 850px;
+	float: right;
+	margin-right: 10%;
+	background-color: white;
+}
+.form .application h6 {
+	margin-left: 43px;
+}
+.form form input,button,select {
+    display: block;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+.form form input,select {
+	width: 70%;
+	height: 50%;
+	padding:10px;
+}
+.form form button {
+	width: auto;
+	background-color:#3ce2ad;
+	color: white;
+	border-radius: 30px;
+	padding:20px ;
+	border: none;
+
+}
+.form form button:hover {
+    background: white;
+    border: 2px solid #3ce2ad;
+    color: black;
+    cursor: pointer;
+}
+.form .pics div {
+	background-image: url(../images/back.jpg);
+	width: 40%;
+    height: 70%;;
+    margin: 35px 18px;
+    margin-left: 17px;
+    display: inline-block;
+}
+.form .pics img {
+	margin-top: 65%;
+    margin-left: 25%;
+	
+}
+.form .pics div h4 {
+	margin-left: 25%;
+	text-align: left;
+}
+.form .pics div h3 {
+		margin-left: 25%;
+	text-align: left;
+}
+.form .pics p {
+	margin-left: 25%;
+
+}
+.info {
+	clear: both;
+	width: 100%;
+	height: auto;
+	background-color: black;
+}
+.info div {
+    padding: 5%;
+    width: 20%;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+.info p{
+	color: gray;
+    text-align: left;
+    line-height: 2;
+    margin-left: 20%;
+}
+.info p i {
+	margin-right: 20px;
+
+}
+.info .news {
+	display: inline-block;
+    width: 100%;
+    margin-left:25%;
+}
+.info  hr {
+	    width: 100%;
+    margin-left: 33%;
+}
+.info .news h5,img {
+	display: inline-block;
+	padding:0px;
+	margin:0px;
+}
+.info .news h5 {
+    float: left;
+    padding-top: 25px;
+    display: block;
+    padding: 25px -22px;
+    margin: 0px -20px;
+    text-align: left;
+}
+.info .news img {
+	float: left;
+	margin-right: 35px;
+}
+
+footer {
+	clear: both;
+    width: 100%;
+    height: 60px;
+    background-color: #363636;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+}

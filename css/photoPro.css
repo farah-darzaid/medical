@@ -1,0 +1,22 @@
+body {
+	background-color: #373737;
+}
+.navbar-inner {
+	background: #ccc;
+}
+img {
+	width: 100%;
+	height: 500px;
+}
+.row-fluid div {
+	margin-top: 50px;
+}
+.row-fluid p,h3 {
+	color: white;
+}
+.row-fluid h3 {
+	background-color: #303030;
+}
+footer {
+	color: white;
+}

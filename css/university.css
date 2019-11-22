@@ -1,0 +1,77 @@
+body {
+	height: 2000px;
+}
+.navbar {
+	margin: 0px;
+	
+}
+.navbar-inner {
+	height: 58px;
+	background-color: none;
+
+}
+.breadcrumb {
+	background: white;
+}
+.breadcrumb a{
+	color: #11cbd7; 
+}
+.main {
+	width: 100%;
+	height: 900px;
+    background-image: url(man.jpg);
+   
+}
+.main .content {
+	
+	margin-top: 40%;
+
+}
+.main .content h1,h5 {
+	margin: 20px 0px ;
+	color: white;
+}
+.main .content .search {
+	width: 100%;
+	background: white;
+	height: 100px;
+}
+ input[type="submit"]  {
+	    background: #11cad6;
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.section1 {
+	margin-top: 5%;
+    width: 100%;
+    height: 400px;
+}
+.section1 .container .row-fluid .span6 {
+	height: 400px;
+}
+.section1 .container .row-fluid .span6 img{
+	width: 100%;
+    height: 360px;
+    margin: 20px 0px;
+}
+.section1 .container .row-fluid .span6 p {
+	margin: 14% 0%;
+    line-height: 2;
+ }
+ .section1 .container .row-fluid .span6 h2 {
+ 	    margin-top: 20px;
+ 	    color: #11cad6;
+ }
+ .section1 .container .row-fluid .span6 a i {
+ 	z-index: 2;
+    color: #11cad6;
+}
+    .section1 .container .row-fluid .span6 a {
+    	width: 100px;
+    	height: 100px;
+    	z-index: 1;
+    	background: red;
+
+}
